@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Recetas</title>
+        <link rel="stylesheet" href="Styles/style1.css">
+</head>
+<body>
+  <h1 style="text-align: center;">Recetas Deliciosas</h1>
+    <br><p>
+      <p style="text-align: center;">¿Tienes mucha hambre y no quieres gastar mucho tiempo preparando alguna comida?</p>
+    <p style="text-align: center;">No te preocupes, a continuación te mostraremos 3 recetas deliciosas y faciles de hacer en cualquier momento</p>
+    <br>
+    <hr><br>
+    <h2>Sándwich de Atún y Manzana</h2>
+    <br>
+    <img src="imagenes/sandwich.jpg" width="500" height="250" alt="sandwich">
+    <br><br>
+    <i>Este sándwich de Atún y Manzana es la combinación perfecta entre lo cremoso y lo crujiente, lo salado y lo dulce. 
+      Es ligero, nutritivo y lleno de sabor, haciendo de este una opción ideal para quienes buscan algo diferente, delicioso y saludable.</i>
+    <br><br>
+    <a href="sandwich.html" style="color: #ff0000; text-decoration: none">¿Cómo preparar este sándwich?</a>
+    <br><br>
+    <hr>
+    <br><br>
+    <h2>Galletas de Avena y Coco</h2>
+    <br>
+    <img src="imagenes/galletas.jpg" width="400" height="250" alt="galletas">
+    <br><br>
+    <i>Estas galletas de Coco y Avena son el equilibrio perfecto entre lo crujiente y lo suave. 
+    Cada bocado está lleno de la dulzura natural del coco rallado y la textura irresistible de la avena, 
+    creando una combinación que te hará sentir en casa.</i>
+    <br><br>
+    <a href="galletas.html" style="color: #ff0000; text-decoration: none">¿Como preparar estas galletas?</a>
+    <br><br>
+    <hr>
+    <br><br>
+    <h2>Sudado de Pollo y Papa</h2>
+    <br>
+    <img src="imagenes/sudado.jpg" width="400" height="250" alt="sudado">
+    <br><br>
+    <i>Este sudado de Pollo y Papa es un plato lleno de tradición y sabor. Cocinado a fuego lento, 
+      el pollo se impregna con un delicioso caldo lleno de especias y hierbas aromáticas, 
+      mientras las papas absorben toda la esencia, quedando tiernas y llenas de sabor.</i>
+    <br><br>
+    <a href="sudado.html" style="color: #ff0000; text-decoration: none">¿Como preparar este sudado?</a>
+    <br><br>
+    <hr>
+    <br><br>
+  </table>
+  <h2>¡Queremos saber tu opinión! Cuéntanos qué te parecieron nuestras recetas y cómo fue tu experiencia.</h2>   <!-- Título del formulario que aparece en la página -->
+  
+  <form action="/enviar" method="post"> <!-- Comienza el formulario, que enviará los datos al servidor con método POST -->
+      <label for="nombre">Nombre:</label> <!-- Etiqueta para el campo de nombre, se usa para indicar qué se espera en el campo de entrada -->
+      <input type="text" id="nombre" name="nombre" required><br><br>
+      <label for="emal">Correo Electrónico</label>
+      <input type="email" id="email" name="email" required><br><br> <!-- Campo de entrada para el correo electrónico, de tipo email, obligatorio -->
+      <label for="mensaje">Mensaje:</label><br> <!-- Etiqueta para el campo de mensaje -->
+      <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>  <!-- Área de texto donde el usuario puede escribir un mensaje, con filas y columnas especificadas -->
+      <button type="submit">Enviar</button>
+    <br><br>
+    <footer>
+      <p>&copy; 2025 Diego Salazar. Todos los derechos reservados.</p>
+      <p>Diseñado con ❤️ para los amantes de la buena comida.</p>
+    </footer> <!--Pie de pagina de recetas-->
+</body>
+</html>
